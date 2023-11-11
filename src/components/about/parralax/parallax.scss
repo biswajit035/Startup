@@ -1,0 +1,22 @@
+.parallax {
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  position: relative;
+  width: 100%;
+
+  img {
+    width: 100%;
+    display: block;
+    position: absolute; 
+    top: -350px;
+  }
+
+  .title{
+  }
+
+  
+}
