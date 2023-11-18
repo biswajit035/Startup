@@ -2,9 +2,8 @@
 import './parallax.scss'
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import par from "../../../assets/aboutParallaxBG.jpg";
 
-const AboutParallax = ({title}) => {
+const AboutParallax = ({title,section}) => {
   const ref = useRef();
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -30,7 +29,11 @@ const AboutParallax = ({title}) => {
 
   return (
     <div className="parallax" ref={ref}>
-      <motion.img style={{ y: imageParallaxAnimation }} src={par} alt="" />
+      <motion.img
+        style={{ y: imageParallaxAnimation }}
+        src={section}
+        alt=""
+      />
       <motion.div
         className="title"
         style={{

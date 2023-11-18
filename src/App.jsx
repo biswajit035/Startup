@@ -1,9 +1,11 @@
 import './app.scss'
 import About from './components/about/About'
-import AboutParallax from "./components/about/parralax/AboutParallax";
+import Parallax from "./components/parralax/Parallax";
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Service from './components/services/Service';
+import about from "./assets/aboutParallaxBG.jpg";
+import service from "./assets/serviceParallaxBG.jpg";
 
 function App() {
 
@@ -11,9 +13,9 @@ function App() {
     <div className="app">
       <Navbar />
       <Hero />
-      <AboutParallax title="Who We Are" />
+      <Parallax title="Who We Are" section={about} />
       <About />
-      <AboutParallax title="What We Do" />
+      <Parallax title="What We Do" section={service} />
       <Service />
     </div>
   );
