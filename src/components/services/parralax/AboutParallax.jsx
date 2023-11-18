@@ -1,10 +1,9 @@
-/* eslint-disable react/prop-types */
 import './parallax.scss'
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import par from "../../../assets/aboutParallaxBG.jpg";
 
-const AboutParallax = ({title}) => {
+const AboutParallax = () => {
   const ref = useRef();
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -38,7 +37,7 @@ const AboutParallax = ({title}) => {
           scale: textScaleAnimation,
         }}
       >
-        {title}
+        Who We Are
       </motion.div>
     </div>
   );

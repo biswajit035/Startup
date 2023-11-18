@@ -10,6 +10,8 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay } from 'swiper/modules';
+import Slide1 from './Slide1';
+import Slide2 from './Slide2';
 
 
 const Hero = () => {
@@ -24,8 +26,8 @@ const Hero = () => {
       modules={[Autoplay]}
       className="hero"
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide><Slide1/></SwiperSlide>
+      <SwiperSlide><Slide2/></SwiperSlide>
     </Swiper>
   );
 };
