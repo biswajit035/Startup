@@ -1,4 +1,4 @@
-import './app.scss'
+import './style/app.scss'
 import About from './components/about/About'
 import Parallax from "./components/parralax/Parallax";
 import Hero from './components/hero/Hero'
