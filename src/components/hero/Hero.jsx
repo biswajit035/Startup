@@ -1,4 +1,4 @@
-import './hero.scss';
+// import '../../style/components/hero.scss'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

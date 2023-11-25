@@ -51,7 +51,9 @@ const Navbar = () => {
           height="15"
           style={menuButtonStyle}
         />
+        {/* This for desktop */}
         {windowWidth>=992 && <Navlink isOpen={isOpen} handleClick={null} />}
+        {/* This is for mobile */}
         {windowWidth<992 && isOpen && <Navlink isOpen={isOpen} handleClick={handleClick} />}
       </div>
     </div>

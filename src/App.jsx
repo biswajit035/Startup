@@ -13,7 +13,8 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      {/* <Hero />
+       <Hero />
+      {/*
       <Parallax title="Who We Are" section={about} />
       <About />
       <Parallax title="What We Do" section={service} />
