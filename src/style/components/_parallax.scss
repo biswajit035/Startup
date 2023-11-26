@@ -1,0 +1,36 @@
+.parallax {
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  position: relative;
+  width: 100%;
+  background: red;
+
+  .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+       .title {
+      color: white; /* Adjust text color as needed */
+      text-align: center;
+    }
+    }
+
+  img {
+    position: relative;
+    top: -125px;
+    width: 100%;
+    height: calc(100% + 145px );
+    object-fit: cover;
+    filter: brightness(55%);
+  }  
+}
