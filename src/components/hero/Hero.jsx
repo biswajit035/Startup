@@ -1,4 +1,3 @@
-// import '../../style/components/hero.scss'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,7 +25,7 @@ const Hero = () => {
       modules={[Autoplay]}
       className="hero"
     >
-      <SwiperSlide><Slide1/></SwiperSlide>
+      {/* <SwiperSlide><Slide1/></SwiperSlide> */}
       <SwiperSlide><Slide2/></SwiperSlide>
     </Swiper>
   );
