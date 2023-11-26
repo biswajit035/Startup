@@ -14,9 +14,9 @@ function App() {
     <div className="app">
       <Navbar />
        <Hero />
-      {/*
       <Parallax title="Who We Are" section={about} />
       <About />
+      {/*
       <Parallax title="What We Do" section={service} />
       <Service />
       <Footer/> */}

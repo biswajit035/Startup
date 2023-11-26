@@ -1,3 +1,5 @@
+import AnimatedButton from "../butoon/animatedButton";
+
 const Slide1 = () => {
   return (
     <div className="slide slide1">
@@ -8,10 +10,7 @@ const Slide1 = () => {
         <div className="subtitle">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis praesentium deserunt perferendis fuga aspernatur, dolorum asperiores adipisci. Fugiat, vero quas.
         </div>
-        
-        <div className="getstarted">
-            GET STARTED 
-        </div>
+        <AnimatedButton/>
       </div>
     </div>
   );
