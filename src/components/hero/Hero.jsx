@@ -25,7 +25,7 @@ const Hero = () => {
       modules={[Autoplay]}
       className="hero"
     >
-      {/* <SwiperSlide><Slide1/></SwiperSlide> */}
+      <SwiperSlide><Slide1/></SwiperSlide>
       <SwiperSlide><Slide2/></SwiperSlide>
     </Swiper>
   );

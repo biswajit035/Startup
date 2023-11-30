@@ -7,6 +7,7 @@ import Service from './components/services/Service';
 import about from "./assets/aboutParallaxBG.jpg";
 import service from "./assets/serviceParallaxBG.jpg";
 import Footer from './components/footer/footer';
+import Need from './components/need/Need';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className="app">
       <Navbar />
        <Hero />
+       <Need/>
       <Parallax title="Who We Are" section={about} />
       <About />
       <Parallax title="What We Do" section={service} />

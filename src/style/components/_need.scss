@@ -1,0 +1,29 @@
+.need {
+  height: 100vh;
+  max-width: 100vw;
+  padding: 0 8vw;
+  background-color: antiquewhite;
+  display: flex;
+
+  .left{
+    width: 50%;
+    background-image: url("../../src/assets/need.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; 
+    
+    img{
+        width: auto;
+        height: 100%;
+        // scale: 1.9;
+    }
+  }
+  .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+}

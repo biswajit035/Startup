@@ -5,12 +5,14 @@ const Slide1 = () => {
     <div className="slide slide1">
       <div className="slide_content">
         <div className="title">
-        Lorem ipsum dolor sit amet consectetur adipisicing.
+          Lorem ipsum dolor sit amet consectetur adipisicing.
         </div>
         <div className="subtitle">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis praesentium deserunt perferendis fuga aspernatur, dolorum asperiores adipisci. Fugiat, vero quas.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
+          praesentium deserunt perferendis fuga aspernatur, dolorum asperiores
+          adipisci. Fugiat, vero quas.
         </div>
-        <AnimatedButton/>
+        <AnimatedButton text="Get Started" />
       </div>
     </div>
   );
