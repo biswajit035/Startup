@@ -1,4 +1,4 @@
-import AnimatedButton from "../butoon/animatedButton";
+import AnimatedButton from "../butoon/AnimatedButton";
 
 const Slide1 = () => {
   return (
