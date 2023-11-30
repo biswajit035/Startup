@@ -16,10 +16,10 @@ function App() {
        <Hero />
       <Parallax title="Who We Are" section={about} />
       <About />
-      {/*
       <Parallax title="What We Do" section={service} />
       <Service />
-      <Footer/> */}
+      
+      <Footer/>
     </div>
   );
 }
