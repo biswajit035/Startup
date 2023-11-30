@@ -6,7 +6,7 @@ import Navbar from './components/navbar/Navbar'
 import Service from './components/services/Service';
 import about from "./assets/aboutParallaxBG.jpg";
 import service from "./assets/serviceParallaxBG.jpg";
-import Footer from './components/footer/footer';
+import Footer from './components/footer/Footer';
 import Need from './components/need/Need';
 
 function App() {
